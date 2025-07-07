@@ -1,6 +1,6 @@
 #+TITLE: About
 #+hugo_section: /
-#+hugo_paired_shortcodes: typeit
+#+hugo_paired_shortcodes: timeline timelineItem list
 #+export_file_name: about
 #+HUGO_CUSTOM_FRONT_MATTER: :showDate false :showReadingTime false :showWordCount false
 #+description: About Abhimanyu G - Embedded Linux Engineer, Kernel Developer, ARM Expert
@@ -10,4 +10,34 @@ I'm a systems engineer and Linux enthusiast passionate about building deeply tec
 
 I'm currently diving deep into the Linux kernel and real-time systems, contributing to open-source projects, and sharing what I learn along the way. Whether it's writing drivers, debugging obscure bugs, or optimizing build systems, I love solving hard problems that touch silicon.
 
+#+begin_details
+#+begin_summary
+~My Work experience~
+#+end_summary
+#+begin_timeline :noweb yes :results output raw
+#+attr_shortcode: :header SiMa.ai :badge 2024 - current  :subheader Staff Software Engineer
+#+begin_timelineItem
+Test run this experience
+#+end_timelineItem
 
+#+attr_shortcode: :header Samsung Semiconductor :badge 2021 - 2024 :subheader Staff Software Engineer
+#+begin_timelineItem
+
+#+end_timelineItem
+
+#+attr_shortcode: :header PathPartner Technology :badge 2017 - 2021 :subheader Senior Software Engineer
+#+begin_timelineItem
+
+#+end_timelineItem
+
+#+attr_shortcode: :header V3Novus Private Ltd :badge 2016 - 2017 :subheader Software Engineer
+#+begin_timelineItem
+
+#+end_timelineItem
+
+#+end_timeline
+
+#+end_details
+* My list
+
+* My another list
